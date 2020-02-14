@@ -1,0 +1,24 @@
+{
+	"name": "trip_planner",
+	"version": "1.0.0",
+	"description": "",
+	"main": "webpack.config.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mattbesedick/TripPlanner.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mattbesedick/TripPlanner/issues"
+	},
+	"homepage": "https://github.com/mattbesedick/TripPlanner#readme",
+	"devDependencies": {
+		"webpack": "^4.41.6",
+		"webpack-cli": "^3.3.11"
+	}
+}
