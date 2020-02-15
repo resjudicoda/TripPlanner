@@ -2,13 +2,52 @@
     box-sizing: border-box;
   }
   
-  body {
+body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #C1B5AD;
   }
 
-  #map {
-      height: 100vh;
-      width: 100vw;
-  }
+#navbar {
+    height: 5vh;
+    width: 100vw;
+    background-color: darkgray;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+h1 {
+  max-height: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: cyan;
+}
+
+#main {
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+}
+
+#map {
+  height: 95vh;
+  width: 75vw;
+}
+
+#options {
+    height: 95vh;
+    width: 25vw;
+}
+
+#select {
+  height: 45vh;
+  width: 25vw;
+  background-color: blue;
+}
+
+#trip {
+  height: 50vh;
+  width: 25vw;
+  background-color: red;
+}
