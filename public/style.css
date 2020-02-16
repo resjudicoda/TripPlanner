@@ -12,16 +12,16 @@ body {
     height: 5vh;
     width: 100vw;
     background-color: darkgray;
-    box-sizing: border-box;
-    overflow: auto;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(110, 109, 107);
 }
 
-h1 {
-  max-height: inherit;
-  box-sizing: border-box;
-  margin: 0;
+.navItem {
   font-family: Arial, Helvetica, sans-serif;
-  color: cyan;
+  color: rgb(84, 206, 125);
+  padding: 1rem;
+  
 }
 
 #main {
@@ -35,19 +35,49 @@ h1 {
   width: 75vw;
 }
 
-#options {
+#side_bar {
     height: 95vh;
     width: 25vw;
 }
 
 #select {
   height: 45vh;
-  width: 25vw;
-  background-color: blue;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1rem;
 }
 
-#trip {
+#itinerary {
   height: 50vh;
-  width: 25vw;
-  background-color: red;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#currentItinerary {
+  background-color: rgb(238, 238, 238);
+}
+
+.tripItems {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.tripSelectors {
+  display: flex;
+  margin: 1rem;
+  justify-content: space-around;
+}
+
+.options {
+  width: 50%;
+}
+
+.itineraryItems {
+  display: flex;
+  margin: 1rem;
 }

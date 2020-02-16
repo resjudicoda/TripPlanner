@@ -11,24 +11,86 @@
 <body>
 
   <div id="navbar">
-    <h1>Trip Planner</h1>
+    <a class="navItem">Trip Planner</a>
+    <a class="navItem">About</a>
+    <a class="navItem">Contact</a>
   </div>
 
   <div id="main">
  
- <div id="map"></div>
+    <div id="map"></div>
 
- <div id="options">
-   <div id="select">
+    <div id="side_bar">
+      <div id="select">
+        <div>
+        <form method="POST" action="/">
+          <div class="tripItems">
+            <label for="hotels"  class="optionsLabel">Hotels</label>
+            <div class="tripSelectors">
+              <select name="hotels" class="options">
+              </select>
+              <button type="submit" >Add</button>
+            </div>
+          </div>
+        </form>
+        </div>
 
-   </div>
-   <div id="trip">
+        <div>
+        <form method="POST" action="/">
+          <div class="tripItems">
+            <label for="restaurants"  class="optionsLabel">Restaurants</label>
+            <div class="tripSelectors">
+              <select name="restaurants" class="options">
+              </select>
+              <button type="submit" >Add</button>
+            </div>
+          </div>
+        </form>
+        </div>
 
-   </div>
- </div>
-</div>
+        <div>
+        <form method="POST" action="/">
+          <div class="tripItems">
+            <label for="activities"  class="optionsLabel">Things to Do</label>
+            <div class="tripSelectors">
+              <select name="activities" class="options">
+              </select>
+              <button type="submit" >Add</button>
+            </div>
+          </div>
+        </form>
+        </div>
+
+      </div>
+
+      <div id="itinerary">
+
+        <div id="currentItinerary">
+          <div class="itineraryItems">
+            <p>My Hotels</p>
+            <ul>
   
-
-
+            </ul>
+          </div>
+  
+          <div class="itineraryItems">
+            <p>My Restaurants</p>
+            <ul>
+  
+            </ul>
+          </div>
+  
+          <div class="itineraryItems">
+            <p>My Activities</p>
+            <ul>
+  
+            </ul>
+          </div>   
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>
